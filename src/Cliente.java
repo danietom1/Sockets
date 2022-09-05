@@ -4,7 +4,7 @@ import java.net.Socket;
 public class Cliente {
     public static void main(String[] args) {
 
-        final String HOST ="127.0.0.1";
+        final String HOST ="192.168.0.14";
         final int PUERTO = 5000;
 
         DataInputStream in;
