@@ -1,0 +1,13 @@
+CREATE TABLE Saldos(
+		Saldo_id int NOT NULL AUTO_INCREMENT,
+        Saldo_nombre varchar(50) not null,
+        Saldo_apellido varchar(50) not null,
+        Saldo_valor double not null,
+        PRIMARY KEY(Saldo_id)
+);
+
+INSERT INTO Saldos (Saldo_nombre,Saldo_apellido,Saldo_valor) VALUES ('Alex','Nieto',1700000);
+INSERT INTO Saldos (Saldo_nombre,Saldo_apellido,Saldo_valor) VALUES ('Julian','Munar',4500000);
+INSERT INTO Saldos (Saldo_nombre,Saldo_apellido,Saldo_valor) VALUES ('Andres','Rodriguez',0);
+
+Select * from Saldos;
